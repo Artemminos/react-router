@@ -4,7 +4,7 @@ import Main from "./pages/Main";
 import Cart from "./pages/Cart";
 import Market from "./pages/Market";
 
-const Routes = () => {
+const AuthorizedRoutes = () => {
     return (
         <Switch>
             <Route exact path="/">
@@ -23,4 +23,4 @@ const Routes = () => {
     );
 };
 
-export default Routes;
+export default AuthorizedRoutes;

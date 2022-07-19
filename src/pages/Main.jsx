@@ -1,11 +1,18 @@
 import React from 'react';
 
-const Cart = () => {
+const compareFn = (prev,next) => {
+
+}
+const Main = React.memo(() => {
+    const a = ()=>{
+
+    }
+
     return (
         <div>
-            Cart
+            Main
         </div>
     );
-};
+}, compareFn);
 
-export default Cart;
+export default Main;

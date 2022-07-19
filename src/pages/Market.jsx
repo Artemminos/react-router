@@ -1,4 +1,5 @@
 import React from 'react';
+import MainWrapper from "../MainWrapper";
 
 const Market = () => {
     return (
